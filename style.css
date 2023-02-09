@@ -10,22 +10,34 @@
     box-sizing: border-box;
     margin: 0;
 }
+/* Centrando Container */
+html, body{
+    height: 100%;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-content: center; */
+}
+main{
+    min-height: 100%;
+}
 body{
     background-color: var(--light-gray);
 }
-.QR{
+/* Fin del centrado */
+.QR__container{
     font-family: 'Outfit', sans-serif;
     color: var(--dark-blue);
     text-align: center;
-}
-.QR__container{
     overflow: hidden;
-    width: 90%;
+    /* width: 100%; */
     max-width: 320px;
     min-width: 300px;
-    height: 500px;
-    margin: 0 auto;
-    margin-top: 80px;
+    /* height: 500px; */
+    /* margin: 0 auto; */
+    /* margin-top: 80px; */
     background-color: var(--white);
     padding: 20px;
     border: none;
